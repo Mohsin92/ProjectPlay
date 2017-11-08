@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="content_description_background">Background</string>
+    <string name="Log_in_to_shop_via">Log in to shop via</string>
+    <string name="Log_in_to_shop_via_email">Log in to shop via email</string>
+    <string name="Reset">Reset</string>
+    <string name="Log_me_in">LOGIN</string>
+    <string name="E_MAIL">E-MAIL</string>
+    <string name="FACEBOOK">FACEBOOK</string>
+    <string name="Register">Register</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Login_to_continue">Login to continue</string>
+    <string name="Skip">Skip</string>
+    <string name="Forgot_your_password">Forgot password</string>
+    <string name="Email_for_recovery">Email for recovery</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Close">Close</string>
+    <string name="Clear">Clear</string>
+    <string name="Undo">Undo</string>
+    <string name="Email">Email</string>
+
+    <string name="base_url">http://woocommerce.varshaawebdemo.com/wp-json/wc/v2/</string>
+    <!--<string name="base_url">http://wordpressdemo.vtest/wp-json/wc/v2/</string>-->
+
+    <string name="Password">Password</string>
+    <string name="New_password">New password</string>
+    <string name="Password_again">Password again</string>
+    <string name="Change_password">Change password</string>
+    <string name="Save">Save</string>
+
+    <string name="Log_in">Log in</string>
+    <string name="Qty">Qty</string>
+    <string name="Loading">Loading …</string>
+    <string name="format_price_discount_percents">-%1$d %%</string>
+
+    <string name="Link_is_invalid">Link is invalid</string>
+    <string name="Required_field">Required field</string>
+    <string name="Internal_error">Internal error, please try it later</string>
+    <string name="or">OR</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_to_continue">Register to continue</string>
+    <string name="best_products">POPULER PRODUCTS</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="best_offers">BEST OFFERS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sub_category">SubCategory</string>
+    <string name="brand_name">Brand name</string>
+
+    <string name="apply">APPLY</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="price_details">Price Details</string>
+    <string-array name="qty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>more</item>
+    </string-array>
+
+</resources>

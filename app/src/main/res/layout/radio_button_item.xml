@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:id="@+id/procat_size1"
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:layout_margin="10dp"
+android:gravity="center"
+android:button="@null"
+android:background="@drawable/square_shape"
+    />

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_slider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:animateOnClick="true"
+        android:background="@color/transparent"
+        android:content="@+id/ll_sliding_content"
+        android:handle="@+id/handle"
+        android:orientation="vertical"
+        android:rotation="180"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_sliding_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:rotation="180">
+
+            <!--             PUT HERE ANY WIDGETS OR BUTTONS, IMAGES, TEXTVIEW, EDITTEXT BOX, SEARCH BOX -->
+            <!--             TO OPEN INTO SLIDING DRAWER. -->
+            <TextView
+                android:id="@+id/tv_nofilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="165dp"
+                android:text="No Active Filter Selected"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <ListView
+                android:id="@+id/lv_active_filters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+            </ListView>
+
+
+        </LinearLayout>
+
+    </SlidingDrawer>
+
+
+</RelativeLayout>

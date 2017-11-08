@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="0dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_att"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/prod_attname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Color"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_att_hor_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/prod_att_list"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#ffffff"-->
+            <!--android:divider="@null"-->
+            <!---->
+            <!--&gt;-->
+
+            <!--</android.support.v7.widget.RecyclerView>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/ll_sp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--&lt;!&ndash;<Spinner&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/prod_att_list"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:divider="@null"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:listSelector="@drawable/fill_square"&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+            <!--</LinearLayout>-->
+    </HorizontalScrollView>
+</LinearLayout>
+
+
+

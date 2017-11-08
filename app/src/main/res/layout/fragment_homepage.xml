@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <android.support.percent.PercentFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimary"
+                    android:elevation="5dp"
+                    app:layout_heightPercent="40%">
+
+                </android.support.v4.view.ViewPager>
+
+            </android.support.percent.PercentFrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/best_products"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_bestproduct_vwall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/view_all"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <android.support.percent.PercentFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/recycler_vw"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:clipToPadding="false"-->
+                    <!--app:layout_heightPercent="70%" />-->
+
+                <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+                    android:id="@+id/recycler_vw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal"
+                    app:msrv_gravity="start"
+                    app:msrv_snap_count="2" />
+
+            </android.support.percent.PercentFrameLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="@string/best_offers"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="16sp" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_bestoffer_vwall"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="right"-->
+                    <!--android:text="@string/view_all"-->
+                    <!--android:textColor="@color/colorPrimary" />-->
+            <!--</LinearLayout>-->
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/recycler_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:clipToPadding="false"-->
+                <!--android:orientation="horizontal" />-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

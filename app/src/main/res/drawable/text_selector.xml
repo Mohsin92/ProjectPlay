@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item   android:state_pressed="true" ><!-- this drawable display when you press textView -->
+        <shape  android:shape="rectangle" >
+            <gradient android:startColor="#fa7905"
+                android:endColor="#fcc96b"
+                android:angle="90"
+                ></gradient>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/square_shape">
+        <!-- this drawable show when you dont press textview -->
+    </item>
+
+</selector>

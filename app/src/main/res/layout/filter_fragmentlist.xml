@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.varshaaweblabs.ecommerce.Utility.BreadcrumbLayout
+        android:id="@+id/breadcrumb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/frag_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:divider="@null">
+
+    </ListView>
+
+</LinearLayout>

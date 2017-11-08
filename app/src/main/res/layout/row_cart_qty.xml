@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@+id/rg_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <RadioButton
+            android:id="@+id/rd_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="1"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rd_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="2"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rd_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="3"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rd_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="4"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rd_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="5"
+            android:textSize="14sp" />
+
+
+        <RadioButton
+            android:id="@+id/rd_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="MORE"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:visibility="visible"
+        android:hint="Enter Quantity">
+
+    </EditText>
+
+</LinearLayout>
